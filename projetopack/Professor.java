@@ -3,10 +3,9 @@ package br.ufpb.dce.poo.projetopack;
 
 public class Professor extends Usuario{
 	
-
 	public Professor(String nome, String matricula, String cpf, String departamento){
 		super(nome, matricula, cpf);
-		this.departamento = departamento;
+		super.setDepartamento(departamento);
 	}
 
 	public int getQuantDiasEmprestimo() {
