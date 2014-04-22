@@ -4,8 +4,8 @@ public class Aluno extends Usuario {
 	
 	public Aluno(String nome, String matricula, String cpf, String curso, String periodoIngresso){
 		super(nome, matricula, cpf);
-		this.curso = curso;
-		this.periodoIngresso = periodoIngresso;
+		super.setCurso(curso);
+		super.setPeriodoIngresso(periodoIngresso);
 	}
 
 	public int getQuantDiasEmprestimo() {
