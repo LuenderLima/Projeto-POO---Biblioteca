@@ -9,7 +9,7 @@ public class Professor extends Usuario{
 	}
 
 	public int getQuantDiasEmprestimo() {
-		return Configuracao.getInstance().getDiasEmprestimoProfessor();
+		return Configuracao.getInstance().getDiasEmprestimoProfessor(); 
 	}
 
 }
